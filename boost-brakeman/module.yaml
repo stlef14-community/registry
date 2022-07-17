@@ -1,1 +1,2 @@
-rules:
+package:
+  command: "docker run -v %CWD%:/src slef05/boost-semgrep:latest"
