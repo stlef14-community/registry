@@ -1,2 +1,2 @@
 package:
-  command: "docker run -v %CWD%:/src slef05/boost-semgrep:latest"
+  command: "docker run -v %CWD%:/code slef05/boost-brakeman:latest"
