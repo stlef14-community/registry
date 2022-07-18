@@ -1,2 +1,5 @@
 package:
+  name: "Semgrep"
+  namespace: "boost-semgrep"
+  rules: "converted_rules.yaml"
   command: "docker run -v %CWD%:/src slef05/boost-semgrep:latest"

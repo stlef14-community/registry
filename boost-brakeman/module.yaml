@@ -1,3 +1,5 @@
 package:
+  name: "Brakeman"
+  namespace: "boost-brakeman"
   rules: "rule_db.yaml"
   command: "docker run -v %CWD%:/code slef05/boost-brakeman:latest"
