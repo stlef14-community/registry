@@ -1,0 +1,5 @@
+package:
+  name: "Trivy"
+  namespace: "boost-trivy"
+  rules: "rule_db.yaml"
+  command: "docker run  -v /var/run/docker.sock:/var/run/docker.sock -v $PWD:/tmp/.cache/ slef05/boost-trivy"
